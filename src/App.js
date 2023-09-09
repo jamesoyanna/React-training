@@ -1,11 +1,11 @@
 import React from 'react'
-import Button from './components/Button/Button'
 import './App.css'
+import CondionalRendering from './components/CondionalRendering'
 
 export default function App() {
   return (
     <div>
-      <Button />
+      <CondionalRendering />
     </div>
   )
 }
