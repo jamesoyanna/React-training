@@ -1,13 +1,24 @@
-import React from 'react';
-import './button.css';
+import React from 'react'
 
-const Button  = () => {
+const DisplayData = () => {
+    const user   = {
+        name:"James Bond",
+        imageUrl: "https://img.freepik.com/premium-photo/front-view-person-with-short-hair_23-2148749599.jpg?w=2000",
+        imageSize: 200
 
-    return (
-        <div>
-            <button  className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out'> Apply Now</button>
-        </div>
-    )
+    }
 
+  return (
+    <>
+      <h1>{user.name}</h1>
+      <img className='"avatar' src={user.imageUrl} alt={"Photo of" + user.name}
+      style={{
+        width:user.imageSize,
+        height:user.imageSize
+      }}
+       />
+    </>
+  )
 }
-export default Button;
+
+export default DisplayData
