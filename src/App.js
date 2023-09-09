@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import CondionalRendering from './components/CondionalRendering'
+import RenderList from './components/RenderList'
 
 export default function App() {
   return (
     <div>
-      <CondionalRendering />
+     <RenderList />
     </div>
   )
 }
