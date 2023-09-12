@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
-import Events from './components/Events'
+import UpdatingScreen from './components/UpdatingScreen'
 export default function App() {
   return (
     <div>
-    <Events />
+ <UpdatingScreen />
     </div>
   )
 }
